@@ -3,9 +3,10 @@ import threading
 socket = s.socket()
 
 
-HOST = "127.0.0.1"
+HOST = ""
 PORT = 1234
 
+print(s.gethostname())
 socket.bind((HOST, PORT))
 socket.listen()
 print("waiting")

